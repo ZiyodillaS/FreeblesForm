@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css "> -->
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <main>
+        <section class="setup-section">
+            <div class="container">
+                <div class="setup-top-box">
+                    <div class="setup">
+                        <div class="setup-box">
+                            <h1 class="setup-title">Let’s get you set up</h1>
+                        <p class="setup-text">
+                            Itshould only take a couple of minutes<br>to pair with your watch
+                        </p>
+                        <span class="setup-tiny">
+                            <a href="#" class="setup-link">
+                                <img class="setup-img" src="./img/arrowaround.svg" 
+                                width="32"
+                                height="32"
+                                alt="Link around">
+                            </a>
+                        </span>
+                        </div>
+                    </div>
+                    <form class="setup-form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                        <fieldset class="setup-input-box">
+                            <!-- input name -->
+                            <label class="setup-name-label" for="name">Name</label>
+                            <input class="setup-name" type="text" name="username" value="Kendall Jenner" id="name" placeholder="Name" required>
+                            
+                            <!-- input radio -->
+                            <div class="setup-radio-box">
+                                Gendar
+                                <label class="setup-radio-label">
+                                    <input class="setup-radio" type="radio"   name="usergendar" required>
+                                    Male
+                                </label>
+                                <label class="setup-radio-label">
+                                    <input class="setup-radio" type="radio"  name="usergendar" required>
+                                    Female
+                                </label>
+                            </div>
+                            <!-- input date -->
+                            <label class="setup-name-label setup-date-label" for="date">Date ofbirth</label>
+                            <input class="setup-name setup-date" type="date" name="userdate"  id="date"  required>
+
+                            <!-- input email -->
+                            <label class="setup-name-label setup-email-label" for="email">Email</label>
+                            <input class="setup-name setup-email" type="email" name="useremail"  id="email" placeholder="kendall@emailcom"  required>
+
+                            <!-- input mobile -->
+                            <label class="setup-name-label setup-mobile-label" for="tel">Mobile</label>
+                            <input class="setup-name setup-mobile" type="tel" name="usernumber"  id="tel" placeholder="+91 98765 43210" required>
+
+                            <!-- input id -->
+                            <label class="setup-name-label setup-customer-label" for="customerid">Customer id</label>
+                            <input class="setup-name setup-customer" type="text" name="usercustomerid"  id="customerid" placeholder="576802-ERD0348 45" required>
+
+                            <div class="setup-radio-box setup-membership">
+                                Membership
+                                <label class="setup-radio-label">
+                                    <input class="setup-radio" type="radio"   name="usermembership" required>
+                                    Classic
+                                </label>
+                                <label class="setup-radio-label">
+                                    <input class="setup-radio" type="radio"  name="usermembership" required>
+                                    Silver
+                                </label>
+                                <label class="setup-radio-label">
+                                    <input class="setup-radio" type="radio"  name="usermembership" required>
+                                    Gold
+                                </label>
+                            </div>
+                            <div class="box-btn">
+                                <button class="btn-cancel" type="reset">Cancel</button>
+                                <button class="btn-save" type="submit">Save</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

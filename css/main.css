@@ -1,0 +1,211 @@
+:root {
+    --main-yellow: #FFD500;
+    --main-black: #373d40;
+    --main-light-grey: #F5F8F9;
+    --main-grey: #B1BFCD;
+}
+
+@font-face {
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/actor-v17-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/actor-v17-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    background-color: #F2F2F2;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.setup-section {
+    padding: 77px 60px;
+}
+
+.setup-top-box {
+    display: flex;
+
+}
+
+.setup {
+    width: 276px;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 256px 63px 60px 64px;
+    background-color: var(--main-yellow);
+    border-radius: 21px 0px 0px 21px;
+}
+
+.setup::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/girlbackground.svg");
+    width: 120px;
+    height: 120px;
+    top: 96px;
+    left: 79px;
+}
+
+.setup-box {
+    width: 149px;
+    margin: 0 auto;
+}
+
+.setup-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #383838;
+}
+
+.setup-text {
+    margin: 0px;
+    margin-bottom: 38px;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #383838;
+}
+
+.setup-tiny {
+    display: block;
+    width: 32px;
+    margin: 0 auto;
+}
+
+/* form start */
+.setup-form {
+    padding: 53px 74px 55px 72px;
+    background-color: #FFF;
+    border-radius: 0px 21px 21px 0px;
+}
+
+.setup-input-box {
+    border: none;
+    padding: 0px;
+}
+
+.setup-name-label {
+    color: var(--main-black);
+    margin-right: 30px;
+    font-size: 7.4089px;
+    line-height: 9px;
+}
+
+.setup-name {
+    width: 190px;
+    margin-left: auto;
+    margin-bottom: 11px;
+    padding: 9px 0px 9px 10px;
+    font-size: 7.4089px;
+    line-height: 9px;
+    background-color: var(--main-light-grey);
+    border: 0.586985px solid #CAD7DD;
+    border-radius: 3px;
+    caret-color: #4A90E2;
+    ;
+    outline: none;
+}
+
+.setup-name::placeholder {
+    color: var(--main-grey);
+}
+
+.setup-radio-box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #373D40;
+}
+
+.setup-radio-label {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 21px;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: var(--main-grey);
+}
+
+input[type='radio'] {
+    height: 10px;
+    width: 22px;
+}
+
+.setup-date-label {
+    margin-right: 10px;
+}
+
+.setup-email-label {
+    margin-right: 32px;
+}
+
+
+.setup-mobile-label {
+    margin-right: 28px;
+}
+
+.setup-customer-label {
+    margin-right: 12px;
+}
+
+.setup-customer {
+    margin-bottom: 40px;
+}
+
+.setup-membership {
+    margin-bottom: 50px;
+}
+
+.box-btn {
+    display: flex;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.btn-cancel {
+    margin-right: 10px;
+    padding: 9px 25px;
+    background: #F5F8F9;
+    border-radius: 2.64604px;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #373D40;
+    border-color: transparent;
+
+}
+
+.btn-save {
+    padding: 9px 30px;
+    background: #60E6C5;
+    border-radius: 2.64604px;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #FFFFFF;
+    border-color: transparent;
+}
+
+/* form end */
